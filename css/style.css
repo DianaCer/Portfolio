@@ -5,6 +5,7 @@ html{
 }
 
 html, body{
+    background-color: #140941;
     height: 100%;
     color: var(--font-color);
 }
@@ -17,17 +18,17 @@ html, body{
 
     --border-radius: 12px;
 
-    --font-color: #323232;
+    --font-color: #F8003F;
 }
 
 h2{
-    font-family: "Proza Libre", sans-serif;
+    font-family: 'Source Code Pro', monospace;
     margin: 0;
     margin-bottom: var(--spacing-2);
 }
 
 body{
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Source Code Pro', monospace;
     margin: 0;
     padding: 0 var(--spacing-3);
     max-width: 900px;
@@ -69,8 +70,21 @@ nav{
     margin-right: var(--spacing-3);
 }
 
+.carousel-container{
+    width: 100%;
+    margin: auto;
+    border: 5px dotted #E8003F;
+    overflow: hidden;
+}
+
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
 .project-image{
-    width: 50%;
+    border: 5px dotted #E8003F;
+    width: 100%;
 }
 
 .project-title h3{
@@ -83,6 +97,7 @@ details{
 
 summary{
   list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+  color: white;
 }
 
 footer{
@@ -107,21 +122,17 @@ a{
     font-weight: 600;
 }
 
+.fa{
+    width: 150px;
+    height: 150px;
+}
+
 #logo{
     margin: 0;
 }
 
-#skills-container{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-#skills-container > * {
-    font-size: 2em;
-    width: 2em;
-    margin-top: var(--spacing-1);
+.skill-style{
+    font-family: 'Source Code Pro', monospace;
 }
 
 @media only screen and (max-width: 600px){
