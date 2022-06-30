@@ -92,6 +92,10 @@ nav{
     display: inline;
 }
 
+.project-desc{
+    color: white;
+}
+
 details{
     cursor: pointer;
 }
