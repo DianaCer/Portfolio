@@ -4,9 +4,11 @@ html{
     scroll-behavior: smooth;
 }
 
-html, body{
+body{
     background-image: linear-gradient(#140941, #F8003F);
-    background-color: #140941;
+}
+
+html, body{
     height: 100%;
     color: var(--font-color);
 }
