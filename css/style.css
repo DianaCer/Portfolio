@@ -5,6 +5,7 @@ html{
 }
 
 html, body{
+    background-image: linear-gradient(#140941, #F8003F);
     background-color: #140941;
     height: 100%;
     color: var(--font-color);
@@ -101,6 +102,7 @@ summary{
 }
 
 footer{
+    color: white;
     margin-top: auto;
     padding: var(--spacing-2) 0;
     text-align: center;
